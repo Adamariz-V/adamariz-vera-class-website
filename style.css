@@ -1,0 +1,53 @@
+h1 {
+    background-color: rgb(232, 254, 219);
+    color: rgb(127, 170, 101); 
+    font-family: Times New Roman, serif;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;}
+
+h2 {
+    color: rgb(98, 125, 175);
+    text-align: center;}
+
+body {
+    background-color: rgb(208, 229, 247);
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0px;}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 11px 20px; }
+
+a {
+    color: rgb(100, 100, 166);
+    text-decoration: none;
+    margin: 11px 16px; }
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 11px 16px;
+    max-width: 100%;
+    height: auto; }
+
+ul {
+    list-style-type: disc;
+    margin: 11px 16px;
+    padding-left: 210px; }
+
+button {
+    background-color: rgb(134, 164, 93);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: Thanks for Visiting!;
+    font-size: 16px;
+    margin: 11px 16px;
+    cursor: pointer; }
