@@ -7,11 +7,25 @@ h1 {
     text-align: center;}
 
 h2 {
-    color: rgb(98, 125, 175);
+    background-color: rgb(251, 251, 251);
+    color: rgb(102, 147, 232); 
+    font-family: Times New Roman, serif;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;}
+
+div {
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    padding: 20px;}
+
+#About Me {
+    margin: 40px;
+    padding: 10px;
     text-align: center;}
 
 body {
-    background-color: rgb(208, 229, 247);
+    background-color: rgb(212, 228, 250);
     font-family: Georgia, serif;
     margin: 0;
     padding: 0px;}
@@ -25,9 +39,10 @@ p {
 a {
     color: rgb(100, 100, 166);
     text-decoration: none;
-    margin: 11px 16px; }
+    margin: 11px 16px;
+    padding: 20px;}
 
-.image-container {
+#image-container {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
@@ -36,8 +51,27 @@ a {
     height: auto; }
 
 ul {
-     text-align: center;
-  list-style-position:inside;}
+    list-style-type: disc;
+    margin: 11px 16px;
+    padding: 20px;}
+
+#interests {
+    background-color: rgb(240, 240, 198);
+    margin: 40px;
+    padding: 10px;}
 
 button {
-    background-color: rgb(155, 180, 121);}
+    background-color: rgb(192, 218, 157);
+    margin: 40px;
+    padding: 10px;}
+
+.Ex {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 40px;
+    padding: 10px;}
+
+.purple {
+    background-color: rgb(199, 149, 241);
+    margin: 40px;
+    padding: 10px;}
