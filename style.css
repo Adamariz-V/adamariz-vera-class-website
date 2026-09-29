@@ -1,14 +1,13 @@
 h1 {
-    background-color: rgb(232, 254, 219);
-    color: rgb(127, 170, 101); 
+    background-color: rgb(248, 248, 248);
+    color: #8bb37d; 
     font-family: Times New Roman, serif;
     margin: 40px;
     padding: 10px;
     text-align: center;}
 
 h2 {
-    background-color: rgb(251, 251, 251);
-    color: rgb(102, 147, 232); 
+    color: rgb(254, 255, 255); 
     font-family: Times New Roman, serif;
     margin: 40px;
     padding: 10px;
@@ -19,36 +18,38 @@ div {
     margin-bottom: 20px;
     padding: 20px;}
 
-#About Me {
+#AboutMe {
+    background-color: #b5c7a5;
     margin: 40px;
     padding: 10px;
     text-align: center;}
 
 body {
-    background-color: rgb(212, 228, 250);
+    background-color: #D2E7F9;
     font-family: Georgia, serif;
     margin: 0;
     padding: 0px;}
 
 p {
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 18px;
     line-height: 1.5;
     margin: 11px 20px; }
 
 a {
-    color: rgb(100, 100, 166);
+    color: #4e7795;
     text-decoration: none;
     margin: 11px 16px;
     padding: 20px;}
 
 #image-container {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    margin: 11px 16px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 10px 16px;
+    padding: 9px;
     max-width: 100%;
-    height: auto; }
+    height: auto;}
 
 ul {
     list-style-type: disc;
@@ -71,7 +72,11 @@ button {
     margin: 40px;
     padding: 10px;}
 
-.purple {
-    background-color: rgb(199, 149, 241);
+.title {
+    background-color: #acc7f5;
     margin: 40px;
+    padding: 10px;}
+
+blockquote {
+    margin: 20px;
     padding: 10px;}
