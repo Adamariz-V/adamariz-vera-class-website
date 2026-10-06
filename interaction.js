@@ -5,6 +5,4 @@ function changeMessage() {
     message.textContent = "You clicked the button!";
 }
 
-button.addEventListener("click", changeMessage);
-
-/*
+button.addEventListener("click", changeMessage);    
