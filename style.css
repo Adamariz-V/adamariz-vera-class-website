@@ -25,7 +25,7 @@ div {
     text-align: center;}
 
 body {
-    background-color: #D2E7F9;
+    background-color: #D2E7F9;; 
     font-family: Georgia, serif;
     margin: 0;
     padding: 0px;}
@@ -57,7 +57,7 @@ ul {
     padding: 20px;}
 
 #interests {
-    background-color: rgb(240, 240, 198);
+    background-color: #4f61b1;
     margin: 40px;
     padding: 10px;}
 

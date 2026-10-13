@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 10px;
-    background: rgb(255, 222, 150)
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255))
 }
 
 .page {
@@ -20,12 +20,11 @@ body {
 
 }
 
-/* Header */
 .header {
     grid-area: header;
 
-    background: rgb(250, 133, 90);
-    color: rgb(201, 54, 56);
+    background: rgb(60, 75, 122);
+    color: rgb(255, 255, 255);
 
     padding: 20px;
     text-align: center;
@@ -37,17 +36,15 @@ body {
 
 .middle {
     display: flex;
-    align-items: stretch;
-
-
+    flex-direction: row;
+    width: 100%;
 }
 
-
-/* Left Sidebar */
 .left-sidebar {
+    flex: 0 0 150px;
     grid-area: left;
 
-    background: linear-gradient(to right, rgb(255, 195, 67), rgb(237, 189, 142));
+    background: linear-gradient(to right, #4c6b89, rgb(133, 154, 208));
     color: white;
 
     padding: 20px;
@@ -56,12 +53,13 @@ body {
     border-radius: 10px;
 }
 
-/* Main Content */
+
 .main-content {
+    flex: 1;
     grid-area: main;
 
-    background: linear-gradient(to bottom, #6a9250, #8ec88c);
-    color: black;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #8c98c8);
+    color: rgb(255, 255, 255);
 
     padding: 20px;
 
@@ -69,11 +67,12 @@ body {
     border-radius: 10px;
 }
 
-/* Right Sidebar */
+
 .right-sidebar {
+    flex: 0 0 150px;
     grid-area: right;
 
-    background: linear-gradient(to right, rgb(255, 170, 59), rgb(255, 211, 99));
+    background: linear-gradient(to right, rgb(158, 171, 229), rgb(109, 120, 192));
     color: white;
 
     padding: 20px;
@@ -82,11 +81,11 @@ body {
     border-radius: 10px;
 }
 
-/* Footer */
+
 .footer {
     grid-area: footer;
 
-    background: rgb(186, 112, 0);
+    background: rgb(69, 115, 152);
     color: white;
 
     padding: 20px;
@@ -96,7 +95,7 @@ body {
     border-radius: 10px;
 }
 
-/* Back to Home link */
+
 .page > a {
     grid-column: 1 / -1;
 
